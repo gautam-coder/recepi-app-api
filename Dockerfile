@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 From python:3.9-alpine3.13
 Label maintainer="gautam"
 
@@ -54,4 +53,3 @@ RUN python -m venv /py && \
 ENV PATH="/py/bin:$PATH"
 
 USER django-user
->>>>>>> 187da7a (Github actions.)
